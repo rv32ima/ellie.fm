@@ -62,7 +62,7 @@ export function App() {
           hi! welcome to ellie.fm: Ellie's Website
           <img className="px-2" src="/star.png" />
         </h1>
-        <span>i am ellie! i am a 22 year old half-japanese trans girl living in Seattle, WA!</span>
+        <span>i am ellie! i am a 22 year old half-japanese ex-mormon trans girl living in Seattle, WA!</span>
         <span>i currently work at <Link href="https://devzero.io" clickRef={clickSound}>DevZero</Link> as a staff infrastructure engineer. we do cool stuff. you should check us out.</span>
         <span className="py-2">this is my little corner of the internet ^_^ please enjoy!!</span>
         <div className="flex outline-2 outline-green-500 p-2 space-x-5">
