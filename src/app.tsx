@@ -6,11 +6,15 @@ import type { ComponentChildren } from "preact";
 type LinkProps = {
   clickRef: MutableRef<HTMLAudioElement | null>
   children: ComponentChildren
-  href: string
+  href?: string
 }
 
 const Link = ({ clickRef, children, href }: LinkProps) => {
   const visit = () => {
+    if (!href) {
+      return
+    }
+
     let elem = document.createElement("a");
     elem.href = href
     elem.click();
@@ -50,20 +54,24 @@ export function App() {
     )
   }
 
+  const ClickLink = ({ children, href }: Partial<LinkProps>) => (
+    <Link clickRef={clickSound} children={children} href={href} />
+  )
+
 
   return (
     <main className="flex flex-col w-full h-full xl:p-20">
       <div className="main-body flex flex-col bg-yellow-100 text-black p-5 text-center border-4 border-red-500 border-double">
         <audio src="/wrenchHit.wav" ref={clickSound} preload={"auto"} />
-        <audio src="/playerConnect.wav" autoplay />
-        <audio src="/After_School_Special.ogg" autoplay loop />
+        <audio src="/playerConnect.wav" autoplay preload={"auto"} />
+        <audio src="/Drums.ogg" autoplay loop preload={"auto"} />
         <h1 className="flex w-full justify-center items-center text-2xl">
           <img className="px-2" src="/star.png" />
-          hi! welcome to ellie.fm: Ellie's Website
+          hi! welcome to The Ellie Zone!
           <img className="px-2" src="/star.png" />
         </h1>
         <span>i am ellie! i am a 22 year old half-japanese ex-mormon trans girl living in Seattle, WA!</span>
-        <span>i currently work at <Link href="https://devzero.io" clickRef={clickSound}>DevZero</Link> as a staff infrastructure engineer. we do cool stuff. you should check us out.</span>
+        <span>i currently work at <ClickLink href="https://devzero.io">DevZero</ClickLink> as a staff infrastructure engineer. we do cool stuff. you should check us out.</span>
         <span className="py-2">this is my little corner of the internet ^_^ please enjoy!!</span>
         <div className="flex outline-2 outline-green-500 p-2 space-x-5">
           <div className="flex flex-col w-full items-center justify-center align-center text-center">
