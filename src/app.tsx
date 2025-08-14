@@ -71,19 +71,29 @@ export function App() {
           <img className="px-2" src="/star.png" />
         </h1>
         <span>i am ellie! i am a 22 year old half-japanese ex-mormon trans girl living in Seattle, WA!</span>
-        <span>i currently work at <ClickLink href="https://devzero.io">DevZero</ClickLink> as a staff infrastructure engineer. we do cool stuff. you should check us out.</span>
-        <span className="py-2">this is my little corner of the internet ^_^ please enjoy!!</span>
-        <div className="flex outline-2 outline-green-500 p-2 space-x-5">
-          <div className="flex flex-col w-full items-center justify-center align-center text-center">
-            <h1 className="flex w-full justify-center items-center">
-            <img className="px-2" src="/star.png" />
-            my other internet profiles!
-            <img className="px-2" src="/star.png" />
-            </h1>
-            <SocialLink type="bluesky" href="https://bsky.app/profile/did:plc:wovqqe4chzpghn7hre46nvku" text="ellie.fm" />
-            <SocialLink type="last.fm" href="https://www.last.fm/user/ellieidb" />
-            <SocialLink type="github" href="https://github.com/rv32ima" />
-            <SocialLink type="spotify" href="https://open.spotify.com/user/metarules" />
+        <span>i currently work at <ClickLink href="https://tvscientific.com">tvScientific</ClickLink> leading their ML platform development.</span>
+        <span>at tvscientific, i work with some awesome trans/neurodivergent/open-minded people on the data science team.</span>
+        <span>if that interests you, and you'd like a referral, email me at me (at) this domain :-)</span>
+        <span>enough work talk. this is my little corner of the internet ^_^ please enjoy!!</span>
+        <div className="flex flex-col space-y-4 pt-4">
+          <div className="flex outline-2 outline-green-500 p-2 pb-4">
+            <div className="flex flex-col w-full items-center justify-center align-center text-center">
+              <h1 className="flex w-full justify-center items-center">
+              <img className="px-2" src="/star.png" />
+              my other internet profiles!
+              <img className="px-2" src="/star.png" />
+              </h1>
+              <SocialLink type="bluesky" href="https://bsky.app/profile/did:plc:wovqqe4chzpghn7hre46nvku" text="ellie.fm" />
+              <SocialLink type="last.fm" href="https://www.last.fm/user/ellieidb" />
+              <SocialLink type="github" href="https://github.com/rv32ima" />
+              <SocialLink type="spotify" href="https://open.spotify.com/user/metarules" />
+            </div>
+          </div>
+          <div className="flex flex-col py-2 outline-2 outline-blue-500">
+            <h2>important things that you should maybe perhaps read! (no pressure)</h2>
+            <ClickLink href="/pay_transparency.txt">like... my pay transparency document!</ClickLink>
+            <ClickLink href="https://tr4nny.net">or my blog! (still a work in progress)</ClickLink>
+            <ClickLink href="https://diskinserted.llc">or check out my consultancy!</ClickLink>
           </div>
         </div>
         <div className="flex justify-center pt-4 space-y-1 align-center items-center">
