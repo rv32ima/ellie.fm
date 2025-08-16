@@ -30,5 +30,6 @@ Thanks, Xe!
 \\===========================[]============================================[]============[]============[]=========================================================================[]============================================//
 
 Regarding being "terminated for cause" at Paradoxum Games, I was supposedly terminated for having 'misappropriated' company funds. How did I misappropriate these company funds, you may ask? See, I had donated
-approximately $3,000 USD of company funds to an open-source developer creating software that we depended on in the regular course of conducting business. This was considered by the CEO to be a "misappropriation", 
-for which I was terminated for cause. In other words, they were just waiting for me to fuck up so they could get rid of me. Anyways, the CEO was a real asshole, and I don't recommend anyone works there. 
+approximately $3,000 USD of company funds to an open-source developer creating software that the company depended on. This was considered by the CEO to be a "misappropriation", for which I was terminated for cause. 
+
+In other words, they were just waiting for me to fuck up so they could get rid of me. Anyways, the CEO was a real asshole, and I don't recommend anyone works there. 
