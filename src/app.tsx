@@ -32,7 +32,7 @@ const Link = ({ clickRef, children, href }: LinkProps) => {
       })
       clickRef.current!.play()
       setTimeout(visit, 300)
-    }}>
+    }} href={href}>
       {children}
     </a>
   )
