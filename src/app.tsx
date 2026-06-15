@@ -70,7 +70,7 @@ export function App() {
           hi! welcome to The Ellie Zone!
           <img className="px-2" src="/star.png" />
         </h1>
-        <span>i am ellie! i am a 22 year old half-japanese girl residing in seattle</span>
+        <span>i am ellie! i am a 23 year old trans kitty residing in seattle</span>
         <span>this is my little corner of the internet ^_^ please enjoy!!</span>
         <div className="flex flex-col space-y-4 pt-4">
           <div className="flex outline-2 outline-green-500 p-2 pb-4">
@@ -82,7 +82,6 @@ export function App() {
               </h1>
               <SocialLink type="last.fm" href="https://www.last.fm/user/ellieidb" />
               <SocialLink type="github" href="https://github.com/rv32ima" />
-              <SocialLink type="spotify" href="https://open.spotify.com/user/metarules" />
             </div>
           </div>
           <div className="flex flex-col py-2 outline-2 outline-blue-500">
