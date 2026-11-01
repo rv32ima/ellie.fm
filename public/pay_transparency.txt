@@ -15,7 +15,7 @@ Thanks, Xe!
 +---------------------------+--------------------------------------------+------------+------------+-------------------------------------------------------------------------+--------------------------------------------+
 |         Employer          |                    Role                    | Start Date |  End Date  |                           Total Compensation                            |                Leave Reason                |
 +---------------------------+--------------------------------------------+------------+------------+-------------------------------------------------------------------------+--------------------------------------------+
-| Pinterest                 | Senior Machine Learning Platform Engineer  | 02/17/2026 | Present    | $251,680 USD salary + ~$163,000/yr RSUs ($361,434.57 over 4 years)      | N/A                                        |
+| Pinterest                 | Senior Machine Learning Platform Engineer  | 02/17/2026 | Present    | $251,680 USD salary + $361,434.57 RSUs over 4 yrs (~$163,000 in 2026)   | N/A                                        |
 | tvScientific              | Lead Machine Learning Platform Engineer    | 08/18/2025 | 02/17/2026 | $210,000 USD salary + $21,000 bonus + 52,500 shares                     | Acquired by Pinterest                      |
 | tvScientific              | Contractor                                 | 08/04/2025 | 08/18/2025 | $95 USD/hr                                                              | Moved to salaried role                     |
 | DevZero                   | Member of Technical Staff                  | 04/22/2024 | 08/18/2025 | $210,000 USD salary + 39,400 shares                                     | Resigned                                   |
