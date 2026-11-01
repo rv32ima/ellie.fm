@@ -7,7 +7,7 @@ type Job = {
 }
 
 const JOBS: Job[] = [
-  { employer: 'Pinterest', role: 'Senior Machine Learning Platform Engineer', dates: '02/2026 – present', comp: '$251,680 salary + 3 RSU grants combined worth $361,434.57', leave: 'N/A' },
+  { employer: 'Pinterest', role: 'Senior Machine Learning Platform Engineer', dates: '02/2026 – present', comp: '~$414,000 ($251,680 salary + ~$163,000/yr RSUs, $361,434.57 over 4 years)', leave: 'N/A' },
   { employer: 'tvScientific', role: 'Lead Machine Learning Platform Engineer', dates: '08/2025 – 02/2026', comp: '$231,000 ($210,000 salary + $21,000 bonus) + 52,500 shares', leave: 'acquired by Pinterest' },
   { employer: 'tvScientific', role: 'Contractor', dates: '08/2025', comp: '$95/hr ($197,800 annualized)', leave: 'moved to salaried role' },
   { employer: 'DevZero', role: 'Member of Technical Staff', dates: '04/2024 – 08/2025', comp: '$210,000 salary + 39,400 shares', leave: 'resigned' },
